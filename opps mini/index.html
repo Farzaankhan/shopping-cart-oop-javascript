@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase | Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <h1>ShopEase<span>.</span></h1>
+        <p>Discover Your Style</p>
+    </header>
+
+    <section class="hero">
+        <div>
+            <span class="tag">NEW COLLECTION 2026</span>
+            <h2>Upgrade Your <span>Everyday Style.</span></h2>
+            <p>Discover premium products designed for your lifestyle.</p>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <div class="section-heading">
+            <div>
+                <h2>Featured Products</h2>
+                <p>Explore our latest collection</p>
+            </div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600"
+                         alt="Classic White T-Shirt">
+                    <span class="product-tag">POPULAR</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="category">MEN'S FASHION</p>
+                    <h3>Classic T-Shirt</h3>
+                    <p class="description">Premium cotton everyday T-shirt.</p>
+
+                    <div class="price-row">
+                        <h3>Rs. 1,500</h3>
+                        <button id="addbtn">Add to Cart +</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+                         alt="Red Sports Shoes">
+                    <span class="product-tag">TRENDING</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="category">FOOTWEAR</p>
+                    <h3>Nike Shoes</h3>
+                    <p class="description">Stylish and comfortable sports shoes.</p>
+
+                    <div class="price-row">
+                        <h3>Rs. 3,000</h3>
+                        <button id="addbtn2">Add to Cart +</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"
+                         alt="Smart Watch">
+                    <span class="product-tag">NEW</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="category">ACCESSORIES</p>
+                    <h3>Smart Watch</h3>
+                    <p class="description">Modern design with smart features.</p>
+
+                    <div class="price-row">
+                        <h3>Rs. 2,500</h3>
+                        <button id="addbtn3">Add to Cart +</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Cart Section -->
+
+        <section class="cart">
+
+            <div class="cart-heading">
+                <div>
+                    <h2>Shopping Cart</h2>
+                    <p>Your selected products</p>
+                </div>
+                <span class="cart-icon">🛒</span>
+            </div>
+
+            <ul id="ull">
+                <!-- Products will appear here -->
+            </ul>
+             <br>
+            <button id="revbtn">Remove First Product</button>
+            <br>
+            <br>
+                
+            <h3 id="total">Total: Rs. 0</h3>
+            <h3 id="discount">after discount : Rs. 0</h3>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>ShopEase.</h2>
+        <p>Designed with passion. Built for everyday shopping.</p>
+        <p>© 2026 ShopEase. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+
+</body>
+</html>
